@@ -130,7 +130,7 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
+      title: "React Natikkkkkkkkkkkve Developer",
       company_name: "Tesla",
       icon: tesla,
       iconBg: "#E6DEDD",
