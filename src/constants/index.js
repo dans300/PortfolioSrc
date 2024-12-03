@@ -24,6 +24,18 @@ import {
     jobit,
     tripguide,
     threejs,
+    coeur,
+    finsa,
+    insa,
+    occ,
+    tp,
+    udea,
+    ende,
+    graf,
+    python,
+    java,
+    c,
+    mario
   } from "../assets";
   
   export const navLinks = [
@@ -43,11 +55,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Hardware Design",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Data science",
       icon: mobile,
     },
     {
@@ -55,7 +67,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Networks & Cybersecurity",
       icon: creator,
     },
   ];
@@ -74,21 +86,22 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "c",
+      icon: c,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "grafana",
+      icon: graf,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "java",
+      icon: java,
     },
+  
     {
       name: "Node JS",
       icon: nodejs,
@@ -106,8 +119,8 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "python",
+      icon: python,
     },
     {
       name: "docker",
@@ -117,133 +130,155 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Internship \"Intelligence artificielle formulation\"",
+      company_name: "L‘Occitane en provence",
+      icon: occ,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Feb 2024 - Aug 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Development of AI tools for predictive analysis of the stability of cosmetic formulations based on laboratory tests.",
+        "Design and implementation of a high-performance classifier.",
+        "Automation of the reading of complex raw material reports, optimizing analysis time."
       ],
     },
     {
-      title: "React Natikkkkkkkkkkkve Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Internship Data Scientist",
+      company_name: "Start-up Coeur-net",
+      icon: coeur,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2023 - Sep 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Analysis of biometric signals for individual identification using Grafana, InfluxDB, and Docker.",
+        "Signal processing pipeline for classification using machine learning models in Python."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Master’s Degree (M2) Cybersecurity",
+      company_name: "INSA Centre-Val-de-Loire",
+      icon: insa,
+      iconBg: "#E6DEDD",
+      date: "Sep 2022 - Sep 2024",
+      points: [
+        "With courses in development and artificial intelligence."
+      ],
+    },
+    {
+      title: "English-Spanish Interpreter",
+      company_name: "Teleperformance",
+      icon: tp,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jun 2020 - Jun 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Call center interpreter in medical, banking, and insurance contexts in the U.S."
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Bachelor in Computer Science",
+      company_name: "Universidad de Antioquia",
+      icon: udea,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2017 - Oct 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Focused on development and physics."
       ],
     },
+    {
+      title: "Stock Manager",
+      company_name: "Fundiciones Industriales S.A.",
+      icon: finsa,
+      iconBg: "#E6DEDD",
+      date: "Nov 2015 - Dec 2016",
+      points: [
+        "Managed inventory in a steel foundry using Office and databases to organize production scheduling."
+      ],
+    },
+    {
+      title: "Commercial Pilot",
+      company_name: "Los Halcones-Endeavour Flight Training",
+      icon: ende,
+      iconBg: "#E6DEDD",
+      date: "Jan 2011 - Oct 2015",
+      points: [
+        "Colombian commercial pilot single-engine-land with instrument rating.",
+        "FAA private pilot single-engine-land with instrument rating."
+      ],
+    }
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Daniel is someone who you can contact when you need to understand concepts of computer science.",
+      name: "Mario Andres triana",
+      designation: "Student of computer science",
+      company: "INSA CVL ",
+      image: "https://media.licdn.com/dms/image/v2/D4D35AQGXNL1vvDvstg/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1730211271159?e=1733864400&v=beta&t=ebW4Fm_Jh2eJudswE4PIYhpzoUNcrJUcZ2B6hTh0Z3E",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Driven , determined , he taught me a lot of things about France as a new comer",
+      name: "Oscar Rojas",
+      designation: "Student ,Industrial risks INSA cvl ",
+      company: "INSA CVL ",
+      image: "https://media.licdn.com/dms/image/v2/D4E03AQHVwg5n1ns73g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729196545978?e=1738800000&v=beta&t=tl5Xcvm2IxmVj10zubJSJacOI3FEviHUuREjDU3BbPc",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "My human is pretty neat i mean ..WOOF WOOF!",
+      name: "Cleopatra",
+      designation: "Pet",
+      company: "home",
+      image: "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/365920208_1738467296624569_9074143001909607490_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eyk2KCbcPKsQ7kNvgGW8nYe&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=AAwBzZsEDQUGnQ9rfEiK-at&oh=00_AYBFrnqmTF_2fNfVR5fiv3xMwQLt1aXMtOqUQzv3K1Pv_A&oe=67554BA4",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Online Book store",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search and buy books from various editors, providing a convenient and efficient solution for centralizing book shopping needs.",
       tags: [
         {
-          name: "react",
+          name: "Spring",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "mongodb client",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Java",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/dans300/Libraire-composant-logiciels.git",
     },
     {
-      name: "Job IT",
+      name: "Application shopping cart",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web application in the style of Ubereats ,to place orders of product ,simulating a shopping cart and having the capacity to create other types too.The back and the front run independently from one another",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Mongodb ",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Node.js",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/toto101230/projet_web_avance/",
     },
     {
-      name: "Trip Guide",
+      name: "WORK IN PROGRESS",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "WORK IN PROGRESS , more projects comming soon ",
       tags: [
         {
           name: "nextjs",
@@ -259,7 +294,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     },
   ];
   

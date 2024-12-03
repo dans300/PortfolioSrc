@@ -26,11 +26,36 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import coeur from "./company/coeur.png";
+import finsa from "./company/finsa.jpg";
+import occ from "./company/occ.jpg";
+import tp from "./company/teleperf.png";
+import insa from "./company/insa.png";
+import udea from "./company/udea.png";
+import ende from "./company/ende.jpg";
+
+import graf from "./tech/grafana.svg";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
+import c from "./tech/c.png";
+import mario from "./ppl/mario.jpg";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  c,
+  java,
+  python,
+  graf,
+  coeur,
+  finsa,
+  occ,
+  ende,
+  udea,
+  insa,
+  tp,
   logo,
   backend,
   creator,
@@ -59,4 +84,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  mario
+  
 };

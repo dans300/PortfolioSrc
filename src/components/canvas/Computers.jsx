@@ -5,9 +5,9 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  //const computer = useGLTF("./desktop_pc/scene.gltf");
 
-  return (
+  return (/*
     <mesh>
       <hemisphereLight intensity={1} groundColor='black' />
       <spotLight
@@ -25,13 +25,17 @@ const Computers = ({ isMobile }) => {
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
-    </mesh>
+    </mesh>*/
+    <div>Computers</div>
   );
 };
 
+
+/*
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
+  
   useEffect(() => {
     // Add a listener for changes to the screen size
     const mediaQuery = window.matchMedia("(max-width: 500px)");
@@ -75,4 +79,6 @@ const ComputersCanvas = () => {
   );
 };
 
-export default ComputersCanvas;
+*/
+
+export default Computers;
