@@ -1,1 +1,21 @@
-vvvvv
+name: Deploy Static Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master  # or main, depending on your default branch
+  workflow_dispatch:  # Allows manual triggering from GitHub UI
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_branch: gh-pages  # The branch to deploy to
+          folder: dist  # Deploy from the dist folder
